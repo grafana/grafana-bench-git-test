@@ -31,8 +31,8 @@ This test repository contains:
 
 ## Important Commit Hashes
 
-- **Main branch commit**: `49b4616` (also tagged as `v1.0.0`)
-- **Deleted branch commit**: `daf9a7ed0e3f65c1a5d0bdc9060b00754ea629a1` (contains extra files)
+- **Main branch commit**: `49b46169b77812aab51476d1e6f28a6971e20ea6` (short: `49b4616`)
+- **Deleted branch commit**: `b642ebe4aa10542aeb5e36e2a7df803114842c22` (short: `b642ebe`, contains extra files)
 
 ## Recreation Script
 
@@ -173,8 +173,8 @@ To use this repository in nanogit integration tests:
 ```go
 const (
     testRepoURL = "https://github.com/grafana/grafana-bench-git-test"
-    testTag = "v1.0.0"
-    deletedBranchCommit = "daf9a7ed0e3f65c1a5d0bdc9060b00754ea629a1"
+    mainCommit = "49b46169b77812aab51476d1e6f28a6971e20ea6"
+    deletedBranchCommit = "b642ebe4aa10542aeb5e36e2a7df803114842c22"
 )
 ```
 
